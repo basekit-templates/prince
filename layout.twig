@@ -13,9 +13,6 @@
 		{% endif %}
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 
-		<script src="{{ asset('js/ResizeSensor.js')}}"></script>
-		<script src="{{ asset('js/ElementQueries.js')}}"></script>
-
 		{% include basekit.headScript %}
 	</head>
 
@@ -38,6 +35,9 @@
 
 		<script src="{{ asset('js/navigation.js')}}"></script>
 		<script src="{{ asset('js/custom.js')}}"></script>
+
+		<script src="{{ asset('js/ResizeSensor.js')}}"></script>
+		<script src="{{ asset('js/ElementQueries.js')}}"></script>
 
 		{% block bodyscripts %}
 		{% endblock %}
